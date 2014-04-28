@@ -1,0 +1,16 @@
+<body> <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+<div class = results>
+<h2>Here is your Result</h2>
+</div>
+
+<p></p>
+
+<div class=rando_code>
+	<h3><%= link_to @url.random_string, go_path(@url.random_string) %>
+
+	<%= link_to "HOME", new_url_path %>
+
+	<%= link_to "INDEX", urls_path %></h3>
+</div>
+</body>

@@ -1,0 +1,16 @@
+
+
+<body>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+	<div class=display>
+		<% @urls.each do |url| %>
+    	<li><%=url.link%>
+
+		<%= link_to "EDIT", edit_url_path(url[:id]) %>
+		<%= link_to "DELETE", url, method: :delete, data: { confirm: "You sure?" }%>
+    	</li>
+		<% end %>
+	</div>
+
+</body>

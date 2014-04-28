@@ -1,0 +1,27 @@
+<body>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+<div class=form_container>
+
+	<div class = page_title>
+		<h1 class=outline>RITLY</h1>    
+
+		
+	</div>
+
+	<div class = form_cradle>
+		<%= form_for @url do |f| %>
+  		<%= label_tag(:link, "Link:") %>
+  		<%= f.text_field :link %></br>
+  		<%= f.hidden_field :random_string, { :value => SecureRandom.urlsafe_base64(5) } %>
+  		<%= f.submit "Link Me" %>
+		<% end %>
+	</div>
+
+</div>
+
+<div class=index_link>
+
+</div>
+</body>
+

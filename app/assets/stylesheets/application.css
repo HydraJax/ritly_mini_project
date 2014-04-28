@@ -1,0 +1,60 @@
+
+html{
+	background-color: rgb(41,38,77);
+}
+
+a { 
+	font-family: 'Open Sans Condensed', 'sans-serif';
+	color:rgb(73,69,115);
+}
+
+li{
+	font-family: 'Open Sans Condensed', 'sans-serif';
+	color:rgb(73,69,115);
+}
+
+.outline{
+	font-family: 'Open Sans Condensed', 'sans-serif';
+
+}
+.page_title{
+	font-family: 'Open Sans Condensed', 'sans-serif';
+	padding-left: 250px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 2.5em;
+	box-shadow: 12px 12px 22px 12px rgba(0,0,0,0.55);
+    color: rgb(73,69,115);
+}
+
+h2{
+	font-family: 'Open Sans Condensed', 'sans-serif';
+	padding-left: 250px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 2.5em;
+	box-shadow: 12px 12px 22px 12px rgba(0,0,0,0.55);
+    color: rgb(73,69,115);
+}
+.rando_code{
+	margin: 100px 20px 20px 200px;
+
+}
+
+.form_cradle{
+	margin: 100px 20px 20px 200px;
+}
+
+.display{
+	font-family: 'Open Sans Condensed', 'sans-serif';
+	padding-left: 250px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 2.5em;
+	box-shadow: 12px 12px 22px 12px rgba(0,0,0,0.55);
+    color: rgb(73,69,115);	
+}
+
+label{
+	color: white;
+}
